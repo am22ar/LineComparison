@@ -34,8 +34,18 @@ public class LineComaprison {
 	            System.out.println("Lines are equal");
 	        else
 	            System.out.println("Lines are not equal");
+	        
+	        
+	     // Check line comparison greater or less
+	        int value = lenOfLineFirst.compareTo(lenOfLineSecond);
+	        if (value < 0) {
+	            System.out.println("Length of first line is less than second line");
+	        } else if (value > 0) {
+	            System.out.println("Length of second line is greater than first line");
+	        } else {
+	            System.out.println("Both lines are equal");
 	    }
-
+	 }
 	
 	
 	public static void main(String[] args) {
